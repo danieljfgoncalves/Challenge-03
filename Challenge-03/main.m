@@ -1,17 +1,12 @@
-//
-//  main.m
-//  Challenge-03
-//
-//  Created by Daniel Goncalves on 2015-04-08.
-//  Copyright (c) 2015 Daniel Goncalves. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
-
-int main(int argc, const char * argv[]) {
+int main (int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int i;
+        i = 1;
+        NSLog (@"Testing...");
+        NSLog (@"....%i", i);
+        NSLog (@"...%i", i + 1);
+        NSLog (@"..%i", i + 2);
     }
-    return 0;
+    return 0; 
 }
